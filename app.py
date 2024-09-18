@@ -5,7 +5,7 @@ import urllib.parse
 
 # Set up page configuration with theme
 st.set_page_config(
-    page_title="Futuristic Call App",
+    page_title="Demo Sales Agent Call App",
     page_icon="🚀",
     layout="wide",
 )
@@ -125,11 +125,11 @@ st.title("🚀 Futuristic Call App")
 col1, col2 = st.columns([2, 1])
 
 with col1:
-    st.markdown("### Make a Futuristic Call")
-    call_number = st.text_input("📞 Enter Call Number", "+18577076043")
+    st.markdown("### Send A Sales Call")
+    call_number = st.text_input("📞 Enter Call Number", "enter number here")
     first_message = st.text_input("💬 Enter First Message", "Hello, is this Mr. Castro?")
 
-    if st.button("🌟 Initiate Futuristic Call"):
+    if st.button("🌟 Initiate Sales Call"):
         with st.spinner("Connecting to the future..."):
             response = make_call(call_number, first_message)
         st.success("Call initiated successfully!")
@@ -148,7 +148,7 @@ with col2:
 st.markdown(
     """
     <div style='text-align: center; margin-top: 50px; color: #00bfff;'>
-        Made with ❤️ by Futuristic Devs
+        Made  by Bryan
     </div>
     """,
     unsafe_allow_html=True
