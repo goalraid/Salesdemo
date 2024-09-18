@@ -120,7 +120,7 @@ def create_mailto_link(message):
 lottie_phone = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_5tl1xxnz.json")
 
 # Streamlit UI
-st.title("🚀 Futuristic Call App")
+st.title("🚀 Demo Sales Agent Call App")
 
 col1, col2 = st.columns([2, 1])
 
