@@ -78,7 +78,7 @@ def make_call(call_number, first_message):
     payload = {
         "name": "SalesDemo",
         "assistantId": "d92a058d-19f0-41bf-8cda-6178a42ed773",
-        "phoneNumberId": "ff514eca-1666-49bf-9359-defc2df305e3",
+        "phoneNumberId": "9ca0f67b-f42b-4cd1-93f2-e82d1492bc19",
         "customer": {
             "numberE164CheckEnabled": True,
             "number": call_number,
