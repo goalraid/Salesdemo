@@ -127,7 +127,7 @@ col1, col2 = st.columns([2, 1])
 with col1:
     st.markdown("### Send A Sales Call")
     call_number = st.text_input("📞 Enter Call Number", "enter number here")
-    first_message = st.text_input("💬 Enter First Message", "Hello, is this Mr. Castro?")
+    first_message = st.text_input("💬 Enter First Message", "Hello My boss,and Your favorite realtor Xanthia wanted to confirm your details ?")
 
     if st.button("🌟 Initiate Sales Call"):
         with st.spinner("Connecting to the future..."):
