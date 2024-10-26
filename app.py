@@ -5,7 +5,7 @@ import urllib.parse
 
 # Set up page configuration with theme
 st.set_page_config(
-    page_title="Demo Sales Agent Call App",
+    page_title="EXP HELPER Agent Call App",
     page_icon="🚀",
     layout="wide",
 )
@@ -120,7 +120,7 @@ def create_mailto_link(message):
 lottie_phone = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_5tl1xxnz.json")
 
 # Streamlit UI
-st.title("🚀 Veritwin Sales Agent Call App")
+st.title("🚀 EXP HELPER Sales Agent Call App")
 
 col1, col2 = st.columns([2, 1])
 
